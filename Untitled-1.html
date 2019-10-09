@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crear interaccion con un boton</title>
+    <style>
+        .fondo {
+            background-color: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3577c6+0,ce39d6+100&0.9+30,0.9+70 */
+            background: -moz-linear-gradient(left, rgba(53, 119, 198, 0.9) 0%, rgba(99, 100, 203, 0.9) 30%, rgba(160, 75, 209, 0.9) 70%, rgba(206, 57, 214, 0.9) 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, rgba(53, 119, 198, 0.9) 0%, rgba(99, 100, 203, 0.9) 30%, rgba(160, 75, 209, 0.9) 70%, rgba(206, 57, 214, 0.9) 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, rgba(53, 119, 198, 0.9) 0%, rgba(99, 100, 203, 0.9) 30%, rgba(160, 75, 209, 0.9) 70%, rgba(206, 57, 214, 0.9) 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e63577c6', endColorstr='#e6ce39d6', GradientType=1);
+            /* IE6-9 */
+            ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+        }
+        
+        button {
+            background: rgba(2, 3, 3, 1);
+            display: flex;
+            padding: 2rem;
+            font-size: 40px;
+            transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function: ease-out;
+            color: #fff;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background: rgba(0, 0, 0, 0.5);
+            cursor: pointer;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class=fondo>
+
+        <button type="button" name="button">Conocer Más</button>
+    </div>
+</body>
+
+</html>
